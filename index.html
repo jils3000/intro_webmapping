@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My frist web map</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style type="text/css">
+      html, body, #map {
+        background-color: #162945;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+          
+    button{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 50px;
+        background-color: #f24440;
+        cursor:pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function main() {
+  
+        var redButton = $('#red-button');
+        
+        var map = $('#map');
+        
+         redButton.click(function(){
+           
+                map.css('background-color', '#f24440');
+           
+                console.log('We have change the map background to red!');
+           
+              });
+       }
+      window.onload = main;
+    </script>
+    <div id="map"></div>
+    <button id="red-button" type="button">Red</button>
+  </body>
+</html>
