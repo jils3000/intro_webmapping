@@ -1,13 +1,14 @@
 #My first web map application
 
 ##Taller de Programación GIS: Introducción a Webmapping
+###Geoinquietos Madrid
 
 04/02/2017
 
-[Introduccion Webmapping](https://github.com/GeoinquietosMadrid/webmapping)
+[Introduction Webmapping](https://github.com/GeoinquietosMadrid/webmapping)
 
 
-####Ejercicio 1. Create your first HTML template for a web map application
+####Exercise 1. Create your first HTML template for a web map application
 
 Our first web map application will contain a map div and a button. 
 When clicking on second, the background color from the first would change
